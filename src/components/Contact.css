@@ -1,0 +1,105 @@
+.contact-container {
+  background-color: #d1c4e9;
+  padding: 1em;
+}
+
+.contact-container h2 {
+  margin-top: 2.5%;
+  text-align: center;
+  background-color: rgba(255, 0, 187, 0.2);
+  margin-left: 19.5%; margin-right: 19.5%;
+  border-radius: 15px;
+}
+
+.contactus {
+  text-align: center;
+  margin-left: 25%; margin-right: 25%;
+  margin-bottom: 1px; margin-top: 50px;
+}
+
+.icon-container {
+  padding-top: 5%; padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container p {
+  background-color: rgba(255, 0, 187, 0.2);
+  border-radius: 25px;
+  padding-top: 5px; padding-bottom: 5px;
+  padding-left: 10px; padding-right: 10px;
+  color: black;
+  margin-top: 5px;
+}
+  
+.ig-item {
+  background-color: white;
+  padding-left: 6.5%; padding-right: 6.5%;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 2%;
+}
+  
+.wa-item {
+  background-color: white;
+  padding-left: 6%; padding-right: 6%;
+  border-radius: 25px;
+  text-align: center;
+  margin-right: 2%; 
+}
+
+.ig-item, .wa-item {
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+img {
+  max-width: 150px; 
+  height: auto;
+}
+
+.icon-container p:hover {
+  background-color: rgba(255, 0, 187, 0.5); 
+  cursor: pointer; 
+}
+
+form {
+  max-width: 675px;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+}
+
+textarea {
+  max-height: 100px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #99afc7;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input[type="submit"] {
+  background: #971a69;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}

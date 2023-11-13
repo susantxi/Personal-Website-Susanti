@@ -1,0 +1,53 @@
+
+header {
+  background-color: #971a69;
+  padding-bottom: 0px; padding-top: 0px;
+  color: white;
+  width: 100%;
+}
+
+.navigasi {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 1em; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex; 
+  margin-left: 10%; margin-right: 15%;
+}
+
+nav li {
+  padding: 10px 8px;
+  border-radius: 15px;
+  display: flex;
+  margin: auto;
+  margin-right: 10%; 
+  transition: background-color 0.3s ease;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav .profile {
+  margin-left: 6%;
+  padding-left: 1em; 
+}
+
+.active {
+  background-color: #d1c4e9;
+  padding: 10px 8px; 
+  border-radius: 15px;
+}
+
+.active a {
+  color: black;
+}

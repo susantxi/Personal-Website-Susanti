@@ -1,0 +1,19 @@
+/* src/components/Home.css */
+.opening {
+    background-color: #d1c4e9;
+    color: #060510;
+    padding-bottom: 15%; padding-top: 5%;
+    text-align: center;
+}
+
+.opening h2{
+    padding-top: 10%; 
+}
+
+.opening p {
+    background-color: rgba(255, 0, 187, 0.2);
+    margin-left: 25%;margin-right: 25%;
+    padding-top: 5px; padding-bottom: 5px;
+    padding-left: 10px; padding-right: 10px;
+    border-radius: 25px;
+}
